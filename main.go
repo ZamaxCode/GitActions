@@ -19,6 +19,7 @@ func main() {
 
 	http.HandleFunc("/", index)
 
-	fmt.Println("Hola Mundo!")
+	fmt.Println("La aplicacion está corriendo en el puerto 3000")
+	fmt.Println("Entre al siguiente link para ingresar: localhost:3000")
 	http.ListenAndServe(":3000", nil)
 }
